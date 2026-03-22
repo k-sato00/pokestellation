@@ -1,0 +1,11 @@
+<!doctype html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Pokestellationアプリ</title><script>
+    // SPA redirect for GitHub Pages
+    // When a 404 occurs, redirect to homepage but preserve the original URL
+    // Store the actual path in sessionStorage so the app can handle routing if needed
+    var fullPath = window.location.pathname;
+    if (fullPath && fullPath !== '/pokestellation/' && fullPath !== '/pokestellation') {
+        sessionStorage.redirect = fullPath;
+    }
+    // Redirect to homepage
+    window.location.href = '/pokestellation/';
+</script></head><body></body></html>
