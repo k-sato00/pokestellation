@@ -8,8 +8,6 @@
     "start": "react-scripts start",
     "prebuild": "node scripts/copy-images.js",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -21,10 +19,9 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.2",
-    "gh-pages": "^6.2.0"
+    "@types/react-dom": "^17.0.2"
   },
-  "homepage": ".",
+  "homepage": "/pokestellation",
   "license": "MIT",
   "browserslist": {
     "production": [
