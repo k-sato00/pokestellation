@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build outputs
+build/
+
+# generated assets from scripts/copy-images.js
+public/images/
+public/images-manifest.json
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
