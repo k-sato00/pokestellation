@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/pokestellation/static/js/main.d2642697.js",
+    "main.js": "/pokestellation/static/js/main.04f0cfe5.js",
     "index.html": "/pokestellation/index.html",
-    "main.d2642697.js.map": "/pokestellation/static/js/main.d2642697.js.map"
+    "main.04f0cfe5.js.map": "/pokestellation/static/js/main.04f0cfe5.js.map"
   },
   "entrypoints": [
-    "static/js/main.d2642697.js"
+    "static/js/main.04f0cfe5.js"
   ]
 }
