@@ -219,7 +219,7 @@ const App: React.FC = () => {
     }}>
       {/* Pokestelationロゴを左上に配置 */}
       <img 
-        src={`${process.env.PUBLIC_URL}/Pokestelationロゴ.png`} 
+        src={`${process.env.PUBLIC_URL}/Pokestelationロ.png`} 
         alt="Pokestellation Logo" 
         style={{
           position: 'absolute',
