@@ -207,6 +207,7 @@ const App: React.FC = () => {
   });
 
   return (
+    {/* Pokestelationロゴをコメントアウト
     <div style={{
       minHeight: '100vh',
       background: `${appBgColor} url(${starBgUrl}) center/cover`,
@@ -217,7 +218,7 @@ const App: React.FC = () => {
       flexDirection: 'column',
       alignItems: 'center',
     }}>
-      {/* Pokestelationロゴを左上に配置 */}
+      {/* Pokestelationロゴを左上に配置 
       <img 
         src={`${process.env.PUBLIC_URL}/Pokestelationロゴ.png`} 
         alt="Pokestellation Logo" 
@@ -230,6 +231,7 @@ const App: React.FC = () => {
           zIndex: 10
         }}
       />
+      */}
       
       <div style={{ display: 'flex', alignItems: 'center', margin: '24px 0' }}>
         <h1 style={{ fontSize: '2.5rem', color: '#FFD700', fontWeight: 'bold', letterSpacing: '2px', margin: 0 }}>
